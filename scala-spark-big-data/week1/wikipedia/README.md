@@ -46,7 +46,7 @@ An example of what 𝚛𝚊𝚗𝚔𝙻𝚊𝚗𝚐𝚜 might return might look 
 List(("Scala",999999),("JavaScript",1278),("LOLCODE",982),("Java",42))
 ```
 
-The list should be sorted in descending order. That is, according to thisranking, the pair with the highest second component (the count) should be thefirst element of the list.
+The list should be sorted in descending order. That is, according to this ranking, the pair with the highest second component (the count) should be the first element of the list.
 
 _Hint: You might want to use methods `𝚏𝚕𝚊𝚝𝙼𝚊𝚙` and `𝚐𝚛𝚘𝚞𝚙𝙱𝚢𝙺𝚎𝚢` on 𝚁𝙳𝙳 for this part._
 
