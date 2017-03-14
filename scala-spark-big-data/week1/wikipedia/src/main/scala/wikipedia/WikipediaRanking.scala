@@ -23,6 +23,8 @@ object WikipediaRanking {
     * Hint4: no need to search in the title :)
     */
   def occurrencesOfLang(lang: String, rdd: RDD[WikipediaArticle]): Int = {
+    if (rdd.isEmpty()) return 0
+
     rdd.map(article => {
       if (article.text.split(" ").contains(lang)) {
         1
